@@ -1,29 +1,22 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: #0e1a2b; /* Dark blue background */
+    background-color: #1a1a1a; /* Dark background */
     color: white;
     font-family: 'Arial', sans-serif;
 }
 
 canvas {
     display: block;
-    margin: auto;
+    margin: 0 auto; /* Center the canvas */
     border: 2px solid rgba(255, 255, 255, 0.5); /* Soft white border */
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Soft glow effect */
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.8)); /* Subtle gradient */
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
 }
 
 h1 {
     text-align: center;
-    font-size: 24px;
-    margin-top: 20px;
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.memory-text {
-    text-align: center;
-    font-size: 18px;
-    margin: 10px;
-    color: rgba(255, 255, 0, 0.8);
+    font-size: 28px; /* Larger title font size */
+    margin: 20px 0; /* Spacing around the title */
+    color: rgba(255, 255, 0, 0.8); /* Soft yellow color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for depth */
 }
